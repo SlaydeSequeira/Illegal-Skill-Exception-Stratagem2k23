@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NextAppointment">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="Next Appointment"
+        android:textColor="#0027FF"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginLeft="15dp"
+        android:text="Enter Disease"
+        android:textColor="#0027FF"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edittext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="#30aa"
+        android:hint="Enter your Disease"
+        android:padding="7dp"
+        android:textColor="#0027FF"
+        android:textColorHint="#30ff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext1"
+        android:layout_marginLeft="15dp"
+        android:text="Enter Date of illness"
+        android:textColor="#0027FF"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edittext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="#30aa"
+        android:hint="Enter Date"
+        android:padding="7dp"
+        android:textColor="#0027FF"
+        android:textColorHint="#30ff"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext2"
+        android:layout_marginLeft="15dp"
+        android:text="Enter Symptoms"
+        android:textColor="#0027FF"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edittext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="#30aa"
+        android:hint="Enter Symptoms"
+        android:padding="7dp"
+        android:textColor="#0027FF"
+        android:textColorHint="#30ff"
+        android:textSize="25dp" />
+
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edittext3"
+        android:layout_marginLeft="15dp"
+        android:text="Enter Description"
+        android:textColor="#0027FF"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/edittext4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text4"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="#30aa"
+        android:hint="Enter Description"
+        android:padding="7dp"
+        android:textColor="#0027FF"
+        android:textColorHint="#30ff"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="88dp"
+        android:backgroundTint="#0027FF"
+        android:text="Submit"
+        android:textColor="@color/black" />
+
+</RelativeLayout>

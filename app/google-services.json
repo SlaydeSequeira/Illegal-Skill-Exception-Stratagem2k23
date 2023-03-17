@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "224045815707",
+    "project_id": "cresendo-14f97",
+    "storage_bucket": "cresendo-14f97.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224045815707:android:48f2e8b5baa147fe9d333e",
+        "android_client_info": {
+          "package_name": "com.example.cresendo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224045815707-ljnrguk75qehmnuaakqk1kjed4tmhi7t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cresendo",
+            "certificate_hash": "68d3a1dd55595be9b5cb1f58283f9c4996bb7762"
+          }
+        },
+        {
+          "client_id": "224045815707-mk960ah2er5cs1lrenogmg4hlu8d7iov.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7PtPTWv55ocCCX39YcX9BZ9Oku7TxUrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224045815707-mk960ah2er5cs1lrenogmg4hlu8d7iov.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
